@@ -6,9 +6,12 @@ namespace AdventOfCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("--- Day 1 ---");
-            Day1Part1.Solve();
-            Day1Part2.Solve();
+            //Console.WriteLine("--- Day 1 ---");
+            //Day1Part1.Solve();
+            //Day1Part2.Solve();
+            Console.WriteLine("--- Day 2 ---");
+            Day2Part1.Solve();
+            Day2Part2.Solve();
         }
     }
 }

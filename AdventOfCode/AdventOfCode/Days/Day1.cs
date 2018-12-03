@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 
 namespace AdventOfCode
 {
@@ -14,7 +13,7 @@ namespace AdventOfCode
         {
             foreach(string freq in input)
             {
-                yield return freq.StartsWith('+') ? int.Parse(freq.Remove(0, 1)) : int.Parse(freq);
+                yield return int.Parse(freq);
             }
         }
 
@@ -35,7 +34,7 @@ namespace AdventOfCode
         {
             foreach (string freq in input)
             {
-                yield return freq.StartsWith('+') ? int.Parse(freq.Remove(0, 1)) : int.Parse(freq);
+                yield return int.Parse(freq);
             }
         }
 
