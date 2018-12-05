@@ -12,9 +12,12 @@ namespace AdventOfCode
             //Console.WriteLine("--- Day 2 ---");
             //Day2Part1.Solve();
             //Day2Part2.Solve();
-            Console.WriteLine("--- Day 3 ---");
-            Day3Part1.Solve();
-            Day3Part2.Solve();
+            //Console.WriteLine("--- Day 3 ---");
+            //Day3Part1.Solve();
+            //Day3Part2.Solve();
+            Console.WriteLine("--- Day 4 ---");
+            Day4Part1.Solve();
+            Day4Part2.Solve();
         }
     }
 }
