@@ -54,7 +54,7 @@ namespace AdventOfCode
             var sleepy = guards.OrderByDescending(g => g.Sleep.Sum(s => s.Value)).First();
             var most = sleepy.Sleep.OrderByDescending(g => g.Value).Select(s => s.Key).First();
 
-            Console.WriteLine($"The ID of the guard multiplied by the minute is { sleepy.Id * most }");
+            Console.WriteLine($"The ID of the guard multiplied by the minute is { sleepy.Id * most }.");
         }
     }
 
@@ -94,7 +94,7 @@ namespace AdventOfCode
             var sleepy = guards.OrderByDescending(g => g.Sleep.Max(s => s.Value)).First();
             var most = sleepy.Sleep.OrderByDescending(g => g.Value).Select(s => s.Key).First();
 
-            Console.WriteLine($"The ID of the guard multiplied by the minute is { sleepy.Id * most }");
+            Console.WriteLine($"The ID of the guard multiplied by the minute is { sleepy.Id * most }.");
         }
     }
 }
